@@ -1,16 +1,159 @@
-# React + Vite
+# Palak Verma Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern, responsive, and interactive developer portfolio built with React, Vite, Tailwind CSS, and Framer Motion. This portfolio showcases my projects, technical skills, achievements, and professional journey as an aspiring AI/ML Engineer, Backend Developer, and Software Engineer.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Modern dark-themed UI
+* Fully responsive design
+* Smooth animations using Framer Motion
+* Project showcase section
+* Skills and technologies section
+* About Me section
+* Contact form integration using EmailJS
+* Resume download option
+* Fast deployment with Vercel
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Frontend
 
-## Expanding the Oxlint configuration
+* React.js
+* Vite
+* Tailwind CSS
+* Framer Motion
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+### Email Service
+
+* EmailJS
+
+### Deployment
+
+* Vercel
+
+## Featured Projects
+
+### Nyay AI – Vernacular Legal Aid Platform
+
+An AI-powered legal assistance platform that provides legal guidance in multiple Indian languages using Retrieval-Augmented Generation (RAG), LLMs, and multilingual support.
+
+### AI Commerce Platform
+
+An intelligent e-commerce assistant that offers:
+
+* Personalized product recommendations
+* Business analytics dashboard
+* Conversational AI chatbot
+* Customer insights and reporting
+
+### Healthcare Assistant
+
+A healthcare support system featuring:
+
+* Symptom-based disease prediction
+* Medicine information
+* Mental health assistance
+* Fitness recommendations
+* Nearby hospital suggestions
+
+### Crop Recommendation System
+
+A machine learning solution that recommends suitable crops based on:
+
+* Soil conditions
+* Weather data
+* Environmental factors
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/plk0309/palak-portfolio.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd palak-portfolio
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+## Environment Variables
+
+Create a `.env` file in the project root:
+
+```env
+VITE_EMAILJS_SERVICE_ID=your_service_id
+VITE_EMAILJS_TEMPLATE_ID=your_template_id
+VITE_EMAILJS_PUBLIC_KEY=your_public_key
+```
+
+## Build for Production
+
+```bash
+npm run build
+```
+
+Preview production build:
+
+```bash
+npm run preview
+```
+
+## Project Structure
+
+```text
+src/
+├── assets/
+├── components/
+├── sections/
+├── App.jsx
+├── main.jsx
+└── index.css
+
+public/
+package.json
+vite.config.js
+```
+
+## Contact
+
+Email: [palakverma0396@gmail.com](mailto:palakverma0396@gmail.com)
+
+LinkedIn:
+https://linkedin.com/in/palak-verma-plk
+
+GitHub:
+https://github.com/plk0309
+
+## Deployment
+
+This portfolio is deployed using Vercel.
+
+## Future Enhancements
+
+* Blog section
+* Experience timeline
+* Project filtering
+* Theme customization
+* Visitor analytics dashboard
+
+## License
+
+This project is open source and available under the MIT License.
+
+---
+
+Designed and developed by Palak Verma.
