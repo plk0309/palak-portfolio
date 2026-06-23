@@ -25,7 +25,9 @@ export default function Navbar() {
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
         <a href="#hero" className="font-display font-bold text-xl tracking-tight">
           <span className="text-gradient">PV</span>
-          <span className="text-muted text-sm font-mono ml-2">/ palak verma</span>
+          <span className="text-muted text-sm font-mono ml-2">
+            / palak verma
+          </span>
         </a>
 
         {/* Desktop links */}
@@ -42,8 +44,9 @@ export default function Navbar() {
           ))}
         </ul>
 
+        {/* Desktop Resume Button */}
         <a
-          href="/palak-portfolio/resume.pdf"
+          href="/resume.pdf"
           target="_blank"
           rel="noreferrer"
           className="hidden md:inline-flex items-center gap-2 px-4 py-2 rounded-lg border border-accent text-accent text-sm font-display font-medium hover:bg-accent hover:text-white transition-all duration-200"
@@ -52,11 +55,26 @@ export default function Navbar() {
         </a>
 
         {/* Mobile hamburger */}
-        <button className="md:hidden text-text" onClick={() => setOpen(!open)}>
+        <button
+          className="md:hidden text-text"
+          onClick={() => setOpen(!open)}
+        >
           <div className="space-y-1.5">
-            <span className={`block h-0.5 w-6 bg-text transition-all ${open ? "rotate-45 translate-y-2" : ""}`} />
-            <span className={`block h-0.5 w-6 bg-text transition-all ${open ? "opacity-0" : ""}`} />
-            <span className={`block h-0.5 w-6 bg-text transition-all ${open ? "-rotate-45 -translate-y-2" : ""}`} />
+            <span
+              className={`block h-0.5 w-6 bg-text transition-all ${
+                open ? "rotate-45 translate-y-2" : ""
+              }`}
+            />
+            <span
+              className={`block h-0.5 w-6 bg-text transition-all ${
+                open ? "opacity-0" : ""
+              }`}
+            />
+            <span
+              className={`block h-0.5 w-6 bg-text transition-all ${
+                open ? "-rotate-45 -translate-y-2" : ""
+              }`}
+            />
           </div>
         </button>
       </div>
