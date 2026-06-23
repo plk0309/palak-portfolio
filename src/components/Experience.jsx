@@ -7,7 +7,7 @@ const timeline = [
     type: "work",
     title: "AI/ML Intern",
     org: "Katharos Techie",
-    period: "2024 – Present",
+    period: "2026 – Present",
     points: [
       "Built an AI Commerce Platform with dual intelligent assistants for customer shopping and platform analytics.",
       "Implemented semantic search with SentenceTransformers + FAISS and real-time Q&A via Groq LLaMA 3.1.",
@@ -18,7 +18,7 @@ const timeline = [
     type: "project",
     title: "Nyay AI — Vernacular Legal Aid",
     org: "Personal Project",
-    period: "2024",
+    period: "2026",
     points: [
       "Designed and deployed end-to-end RAG system: FAISS index with 9,615 document chunks, Cohere reranking.",
       "FastAPI backend with JWT auth + PostgreSQL; React frontend deployed on Vercel.",
@@ -29,11 +29,11 @@ const timeline = [
     type: "education",
     title: "B.Tech — Computer Science & Engineering",
     org: "Bennett University, Greater Noida",
-    period: "2022 – 2026",
+    period: "2024 – 2028",
     points: [
       "CGPA: 8.33 / 10",
       "Focus areas: AI/ML, Data Structures & Algorithms, Full-Stack Development.",
-      "Campus placements target: Jan 2026.",
+      
     ],
   },
 ];

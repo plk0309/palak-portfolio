@@ -43,7 +43,7 @@ export default function Navbar() {
         </ul>
 
         <a
-          href="/resume.pdf"
+          href="/palak-portfolio/resume.pdf"
           target="_blank"
           rel="noreferrer"
           className="hidden md:inline-flex items-center gap-2 px-4 py-2 rounded-lg border border-accent text-accent text-sm font-display font-medium hover:bg-accent hover:text-white transition-all duration-200"

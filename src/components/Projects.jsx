@@ -10,7 +10,7 @@ const projects = [
       "A full-stack RAG-powered legal assistant supporting Hindi and English, designed for everyday legal issues like tenant disputes and consumer complaints. Built with FAISS (9,615 chunks), Cohere reranking, JWT auth, and voice integration.",
     tags: ["FastAPI", "React", "FAISS", "Groq LLaMA 3.1", "PostgreSQL", "RAG", "Cohere"],
     demo: "https://nyay-ai-one.vercel.app",
-    github: "https://github.com/plk0309",
+    github: "https://github.com/plk0309/nyay-ai",
     highlight: true,
     badge: "🏆 Flagship Project",
   },
@@ -21,7 +21,7 @@ const projects = [
       "Internship deliverable featuring a Customer AI Shopping Assistant and a Platform Owner AI Analytics Assistant. Uses SentenceTransformers semantic search, FAISS, and Groq LLaMA 3.1-8b for real-time recommendations.",
     tags: ["FastAPI", "SentenceTransformers", "FAISS", "Streamlit", "Groq", "Railway"],
     demo: null,
-    github: "https://github.com/plk0309",
+    github: "https://github.com/plk0309/ai-commerce-platform",
     badge: "💼 Internship @ Katharos Techie",
   },
   {

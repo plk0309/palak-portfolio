@@ -47,7 +47,7 @@ export default function Hero() {
           className="mb-4"
         >
           <span className="font-mono text-accent text-sm tracking-widest uppercase">
-            B.Tech CSE · Bennett University · 2026
+            B.Tech CSE · Bennett University · 2028
           </span>
         </motion.div>
 
@@ -77,7 +77,7 @@ export default function Hero() {
           className="font-body text-muted text-lg max-w-2xl mx-auto mb-12 leading-relaxed"
         >
           I build AI tools that actually help people — from vernacular legal aid platforms
-          to intelligent commerce systems. Currently seeking SDE / AI roles for Jan 2026.
+          to intelligent commerce systems. 
         </motion.p>
 
         <motion.div
