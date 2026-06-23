@@ -2,10 +2,9 @@ import { motion, useInView } from "framer-motion";
 import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 
-// Move these to .env later for better security
-const SERVICE_ID = "service_spz4edm";
-const TEMPLATE_ID = "template_92t9lzp";
-const PUBLIC_KEY = "TsbQNNo2BEurOZ_5S";
+const SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+const TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+const PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
 
 const links = [
   {
